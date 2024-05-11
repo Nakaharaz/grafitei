@@ -1,0 +1,26 @@
+/*Resetando as bordas, margins e paddings dos elementos*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Inserindo um fundo responsivo ao banner main*/
+.hero-banner {
+  background-image: url("path/to/your/graffiti/image.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
