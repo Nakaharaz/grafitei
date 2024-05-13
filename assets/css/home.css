@@ -5,6 +5,10 @@
   padding: 0px;
 }
 
+.round-border {
+  border-radius: 13px;
+}
+
 body {
  background-color: white;
 } 
